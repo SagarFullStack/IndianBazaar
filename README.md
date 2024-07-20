@@ -1,102 +1,82 @@
-IndianBazaar: E-commerce Platform
+IndianBazaar
 
 Description
-Developed IndianBazaar, a comprehensive e-commerce platform with Angular and .NET Core, featuring product filtering, user authentication, and secure payment processing.
+IndianBazaar is a comprehensive e-commerce platform built using Angular and .NET Core, offering features such as product filtering, user authentication, and secure payment processing. It aims to provide a seamless shopping experience with a user-friendly interface and robust backend.
 
 Installation Instructions
+
 1. Clone the Repository:
-	git clone https://github.com/yourusername/indianbazaar.git
+	git clone https://github.com/SagarFullStack/IndianBazaar.git
 
 2. Navigate to the Project Directory:
-	cd indianbazaar
+	cd IndianBazaar
 
-3. Install Backend Dependencies:
+3. Backend Setup:
+Navigate to the backend folder:
 	cd backend
+
+Install the necessary packages:
 	dotnet restore
 
-4. Install Frontend Dependencies:
-	cd ../frontend
-	npm install
-
-5. Setup the Database:
-Ensure MSSQL Server is running.
-Update the connection string in appsettings.json.
-Run migrations:
-	cd backend
-	dotnet ef database update
-
-6. Run the Application:
-Start the backend:
-	cd backend
+Build and run the backend server:
+	dotnet build
 	dotnet run
 
-Start the frontend:
+4. Frontend Setup:
+Navigate to the frontend folder:
 	cd ../frontend
-	ng serve
+
+Install the necessary packages:
+	npm install
+
+Start the frontend application:
+	npm start
+
+5. Access the Application:
+Open your browser and navigate to http://localhost:4200 for the frontend and http://localhost:5000 for the backend API.
 
 Usage
-1. Access the Application:
-	Open a browser and navigate to http://localhost:4200.
-
-2. User Authentication:
-	Register or log in to access the platform.
-
-3. Browse Products:
-	Use the filters and pagination to explore products.
-
-4. Shopping:
-	Add products to the basket, proceed to checkout, and complete the payment using Stripe.
+User Registration: Users can sign up to create a new account.
+Product Browsing: Browse through various product categories.
+Product Filtering: Use filters to find products based on criteria such as category, price, and ratings.
+Secure Checkout: Add items to the cart and proceed with a secure payment process.
 
 Technologies Used
-Frontend:
-Angular
-Bootstrap
-TypeScript
-
-Backend:
-.NET Core
-ASP.NET Core Web API
-Entity Framework Core
-MSSQL Server
-
-Tools:
-Visual Studio Code
-Postman
-Swagger
+Frontend: Angular
+Backend: .NET Core
+Database: SQL Server
+Payment Integration: [Payment Gateway Name, e.g., Stripe]
+Other: HTML, CSS, Bootstrap
 
 Features
-Product listings with pagination
-Filtering by brand/type
-Basket and checkout system
-Stripe payment integration
-Admin dashboard for order management
+User Authentication (Sign Up, Log In)
+Product Catalog with Filtering
+Secure Payment Processing
+Order Management
+User Profile Management
+Responsive Design
 
 Contributing Guidelines
-1. Fork the Repository:
-Click the Fork button in the repository's GitHub page.
+1. Fork the Repository: Create a personal copy of the repository by forking it on GitHub.
 
-2. Clone the Forked Repository:
-	git clone https://github.com/yourusername/indianbazaar.git
+2. Create a Branch: Create a new branch for your changes:
+	git 	checkout -b feature/your-feature
 
-3. Create a New Branch:
-	git checkout -b feature/your-feature-name
+3. Make Changes: Implement your changes or features.
 
-4. Make Your Changes:
-Implement your changes and commit them:
-	git add .
-	git commit -m "Detailed commit message"
+4. Commit Changes: Commit your changes with a descriptive message:
+git commit -am "Add new feature or fix bug"
 
-5. Push the Changes:
-	git push origin feature/your-feature-name
+5. Push Changes: Push your changes to your forked repository:
+git push origin feature/your-feature
 
-6. Open a Pull Request:
-	Go to the original repository on GitHub and click on "New Pull Request".
+6. Create a Pull Request: Open a pull request to merge your changes into the main repository.
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Contact Information
-For any inquiries or feedback, please contact:
-Sagar Hatagale
-Email: sagar.hatagale.dev@gmail.com
-GitHub: sagar-greatprogrammer
+For any inquiries or issues, please contact:
+Name: Sagar Hatagale
+Email: sagar.hatagale.developer@gmail.com
+GitHub: https://github.com/SagarFullStack
