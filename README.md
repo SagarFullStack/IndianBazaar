@@ -78,5 +78,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Contact Information
 For any inquiries or issues, please contact:
 Name: Sagar Hatagale
-Email: sagar.hatagale.developer@gmail.com
+Email: sagar.hatagale.dev@gmail.com
 GitHub: https://github.com/SagarFullStack
